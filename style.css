@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:700|Poppins:300');
+
+h1 {
+    color: #393e47;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+#test {
+    height: 60px;
+    width: 500px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 7px;
+}
+.coin-amounts {
+    height: 20px;
+    width: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 7px;
+}
+#wrapper {
+    padding: 5%;
+}
+#amount-due {
+    width: 15%;
+    height: 50px;
+    float: left;
+    width: 40%;
+    border-style: solid;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+    
+}
+#amount-received {
+    margin-left: 15%;
+    
+}
+.inputs {
+    height: 50px;
+    width:40%;
+    border-style: solid;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+#coins-field {
+    display: inline-block;
+}
+#button-wrapper {
+    text-align: center;
+    margin-top: 50px;
+}
+#calculate-change {
+    background-color: #292c30;
+    border-style: solid;
+    border-color: #292c30;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
